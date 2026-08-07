@@ -1,0 +1,1246 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant & Marisquería Sergio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,600;0,800;1,400&family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <!-- PORTADA DE BIENVENIDA (HERO COVER) -->
+<section class="hero-cover" id="heroCover">
+    <div class="hero-content">
+        <!-- Logo SVG Cangrejo Rojo -->
+        <div class="logo-container">
+            <svg class="crab-logo-red" viewBox="0 0 100 80" xmlns="http://www.w3.org/2000/svg">
+                <path d="M50,30 C35,30 25,42 25,52 C25,60 35,66 50,66 C65,66 75,60 75,52 C75,42 65,30 50,30 Z" fill="#E63946" />
+                <path d="M25,45 C15,38 8,25 14,18 C20,12 28,22 26,34" fill="none" stroke="#E63946" stroke-width="5" stroke-linecap="round"/>
+                <path d="M14,18 C18,10 28,12 26,22" fill="none" stroke="#E63946" stroke-width="4"/>
+                <path d="M75,45 C85,38 92,25 86,18 C80,12 72,22 74,34" fill="none" stroke="#E63946" stroke-width="5" stroke-linecap="round"/>
+                <path d="M86,18 C82,10 72,12 74,22" fill="none" stroke="#E63946" stroke-width="4"/>
+                <circle cx="42" cy="26" r="3" fill="#E63946"/>
+                <circle cx="58" cy="26" r="3" fill="#E63946"/>
+                <line x1="42" y1="30" x2="42" y2="26" stroke="#E63946" stroke-width="2"/>
+                <line x1="58" y1="30" x2="58" y2="26" stroke="#E63946" stroke-width="2"/>
+                <path d="M28,55 Q18,58 12,68 M29,60 Q20,66 16,75 M32,64 Q24,73 22,80" fill="none" stroke="#E63946" stroke-width="3.5" stroke-linecap="round"/>
+                <path d="M72,55 Q82,58 88,68 M71,60 Q80,66 84,75 M68,64 Q76,73 78,80" fill="none" stroke="#E63946" stroke-width="3.5" stroke-linecap="round"/>
+            </svg>
+        </div>
+
+        <!-- Título Cursiva Elegante -->
+        <h1 class="hero-title-script">Restaurant & Marisquería</h1>
+        <h2 class="hero-title-main">Sergio</h2>
+        <p class="hero-subtitle">Restaurant & Marisquería</p>
+
+        <!-- Datos de Ubicación Real -->
+        <div class="hero-location-box">
+            <p class="address">Av. Libertador 2102</p>
+            <div class="divider-line"></div>
+            <p class="region">El Calafate - Santa Cruz - Patagonia Argentina</p>
+            
+            <!-- Contacto y Horarios integrados -->
+            <div class="divider-line" style="margin: 0.8rem auto;"></div>
+            <p class="contact-item" style="margin-bottom: 0.3rem;">📞 Tel: +54 2902 49-1234</p>
+            <p class="contact-item" style="margin-bottom: 0.3rem;">💬 WhatsApp: +54 9 2902 41-5678</p>
+            <p class="hours" style="font-size: 0.85rem; opacity: 0.9; margin-top: 0.4rem;">🕒 Todos los días de 12:00 a 16:00 hs y de 20:00 a 00:00 hs</p>
+        </div>
+
+        <!-- Botón VER MENU -->
+        <button class="btn-ver-menu" id="btnVerMenu">
+            VER MENÚ
+            <span class="arrow-down">↓</span>
+        </button>
+    </div>
+</section>
+    <!-- ENCABEZADO SECUNDARIO -->
+    <header class="main-header" id="mainHeader">
+        <div class="header-container">
+            <h2 class="brand-title-small">Restaurant & Marisquería Sergio</h2>
+            <p class="brand-subtitle-small">Av. Libertador 2102 • El Calafate</p>
+        </div>
+    </header>
+
+    <!-- BARRA DE NAVEGACIÓN RÁPIDA (STICKY) -->
+    <nav class="sticky-nav" id="stickyNav">
+        <div class="nav-container">
+            <a href="#promo-grupos" class="nav-link highlight">Promo Grupos</a>
+            <a href="#cat-1" class="nav-link">Entradas Frías</a>
+            <a href="#cat-2" class="nav-link">Entradas Calientes</a>
+            <a href="#cat-3" class="nav-link">Platos Españoles</a>
+            <a href="#cat-4" class="nav-link">Arroces</a>
+            <a href="#cat-5" class="nav-link">Pescados Grillados</a>
+            <a href="#cat-6" class="nav-link">Pescados con Salsa</a>
+            <a href="#cat-7" class="nav-link">Parrilla</a>
+            <a href="#cat-8" class="nav-link">Tradicionales</a>
+            <a href="#cat-9" class="nav-link">Brocconchinos</a>
+            <a href="#cat-10" class="nav-link">Ensaladas</a>
+            <a href="#cat-11" class="nav-link">Legumbres</a>
+            <a href="#cat-12" class="nav-link">Sopas</a>
+            <a href="#cat-13" class="nav-link">Pastas Tradicionales</a>
+            <a href="#cat-14" class="nav-link">Otras Pastas</a>
+            <a href="#cat-15" class="nav-link">Crepes</a>
+            <a href="#cat-16" class="nav-link">Milanesas</a>
+            <a href="#cat-17" class="nav-link">Bebidas</a>
+        </div>
+    </nav>
+
+    <!-- CONTENIDO PRINCIPAL DEL MENÚ -->
+    <main class="menu-container" id="menuSection">
+
+       <!-- PROMO GRUPOS -->
+        <section id="promo-grupos" class="promo-card fade-in">
+            <div class="promo-badge">Especial Agencias y Grupos</div>
+            <h2 class="promo-title">PROMO GRUPOS TURÍSTICOS</h2>
+            <p class="promo-description">Una experiencia gastronómica pensada para compartir los mejores sabores de nuestro mar en El Calafate.</p>
+
+            <!-- Cartel de alerta ajustado para grupos -->
+<div style="background-color: #d90429; color: #ffffff; text-align: center; padding: 0.8rem 1rem; border-radius: 8px; font-weight: bold; font-size: 0.95rem; margin: 1rem 0 1.5rem 0; letter-spacing: 0.5px; box-shadow: 0 4px 10px rgba(217, 4, 41, 0.4);">
+    ⚠️ REQUIERE RESERVA PREVIA CON ANTICIPACIÓN Y CONFIRMACIÓN DE CANTIDAD ⚠️
+</div>
+            
+            <div class="promo-content">
+                <h3>El menú incluye:</h3>
+                <ul class="promo-list">
+                    <li>Rabas</li>
+                    <li>Mejillones a la provenzal</li>
+                    <li>Ensalada de estación</li>
+                    <li>Paella valenciana</li>
+                    <li>Truchas con crema y limón</li>
+                    <li>Cazuela de pescado</li>
+                </ul>
+                <div class="promo-footer">
+                    <div class="promo-price-container">
+                        <span class="promo-price-label">Precio por persona:</span>
+                        <span class="promo-price">$45.000</span>
+                    </div>
+                    <p class="promo-conditions" style="color: #ff6b6b; font-weight: bold;">* NO INCLUYE BEBIDA</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CATEGORÍAS DEL MENÚ -->
+        <section id="cat-1" class="menu-section fade-in">
+            <h2 class="category-title">1. ENTRADAS FRÍAS / APPETIZERS</h2>
+            <div class="menu-grid">
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Jamón crudo</h3>
+                        <span class="item-price">$18.000</span>
+                    </div>
+                    <p class="item-description">Prosciutto</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Jamón cocido</h3>
+                        <span class="item-price">$14.000</span>
+                    </div>
+                    <p class="item-description">Cooked ham</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Muzzarella con oliva y pimienta</h3>
+                        <span class="item-price">$16.000</span>
+                    </div>
+                    <p class="item-description">Mozzarella cheese with olive and ground pepper</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Espárragos nacionales al natural</h3>
+                        <span class="item-price">$15.000</span>
+                    </div>
+                    <p class="item-description">Natural national asparagus</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Palmitos con salsa golf</h3>
+                        <span class="item-price">$18.000</span>
+                    </div>
+                    <p class="item-description">Palm hearts served with golf dip (mayonnaise and tomato coulis)</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Aceitunas verdes o negras scaciatas</h3>
+                        <span class="item-price">$13.000</span>
+                    </div>
+                    <p class="item-description">Scaciatas green or black olives</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Mayonesa o salpicón de ave</h3>
+                        <span class="item-price">$18.000</span>
+                    </div>
+                    <p class="item-description">Poultry mayonnaise or poultry salad</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Coctail de langostino o camarones</h3>
+                        <span class="item-price">$22.000</span>
+                    </div>
+                    <p class="item-description">Prawn or shrimps cocktail with palm hearts, celery, and apple</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Langostino con salsa golf</h3>
+                        <span class="item-price">$18.000</span>
+                    </div>
+                    <p class="item-description">Prawns with golf dip (mayonnaise and tomato coulis)</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Mayonesa con atún</h3>
+                        <span class="item-price">$18.000</span>
+                    </div>
+                    <p class="item-description">Tuna mayonnaise</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Salpicón de atún</h3>
+                        <span class="item-price">$18.000</span>
+                    </div>
+                    <p class="item-description">Tuna salad</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Centolla natural</h3>
+                        <span class="item-price">$46.000</span>
+                    </div>
+                    <p class="item-description">Natural crab</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Ensalada de frutos de mar</h3>
+                        <span class="item-price">$39.000</span>
+                    </div>
+                    <p class="item-description">Sea fruit salad</p>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="cat-2" class="menu-section fade-in">
+            <h2 class="category-title">2. ENTRADAS CALIENTES / WARM ENTREES</h2>
+            <div class="menu-grid">
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Espárragos nacionales a la parmesana</h3>
+                        <span class="item-price">$19.000</span>
+                    </div>
+                    <p class="item-description">National asparagus parmesan cheese</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Muzzarella a la milanesa</h3>
+                        <span class="item-price">$19.000</span>
+                    </div>
+                    <p class="item-description">Fried bread-crusted mozzarella</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Calamaretes fritos</h3>
+                        <span class="item-price">$23.000</span>
+                    </div>
+                    <p class="item-description">Calamari, lyonessa-style (pan fried with onions)</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Calamaretes a la veneciana</h3>
+                        <span class="item-price">$26.000</span>
+                    </div>
+                    <p class="item-description">Calamari, venetian style (pan fried with onion and potatoes)</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Mejillones a la oreganatti</h3>
+                        <span class="item-price">$23.000</span>
+                    </div>
+                    <p class="item-description">Mussels, recanati style (with white sauce, mustard, parsley and oregano)</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Rabas a la romana</h3>
+                        <span class="item-price">$22.000</span>
+                    </div>
+                    <p class="item-description">Calamari rings, roman style (egg and flour fried)</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Rabas a la provenzal</h3>
+                        <span class="item-price">$23.000</span>
+                    </div>
+                    <p class="item-description">Calamari rings, provenzal style (parsley and garlic)</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Gambas al ajillo</h3>
+                        <span class="item-price">$23.000</span>
+                    </div>
+                    <p class="item-description">Prawns pan fried in garlic</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Mar y tierra</h3>
+                        <span class="item-price">$28.000</span>
+                    </div>
+                    <p class="item-description">Sea and heart (prawns, mushrooms and setas)</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Langostino a la plancha con cáscara</h3>
+                        <span class="item-price">$19.000</span>
+                    </div>
+                    <p class="item-description">Grilled prawns with their skin</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Suprema al ajillo con papas noisette</h3>
+                        <span class="item-price">$20.000</span>
+                    </div>
+                    <p class="item-description">Supreme with garlic with noisette potatoes</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Tortilla española con chorizo colorado</h3>
+                        <span class="item-price">$20.000</span>
+                    </div>
+                    <p class="item-description">Spanish omelette with colorado chorizo</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Tortilla de papa y huevo</h3>
+                        <span class="item-price">$18.000</span>
+                    </div>
+                    <p class="item-description">Potato and egg omelette</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Grillada de pescado y mariscos (para 2 personas)</h3>
+                        <span class="item-price">$49.000</span>
+                    </div>
+                    <p class="item-description">Grilled fish and seafood for 2 people</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Mejillones a la provenzal</h3>
+                        <span class="item-price">$19.000</span>
+                    </div>
+                    <p class="item-description">Provencal mussels</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Cornalitos fritos</h3>
+                        <span class="item-price">$17.000</span>
+                    </div>
+                    <p class="item-description">Fried cornalitos</p>
+                </article>
+
+            </div>
+        </section>
+        <section id="cat-3" class="menu-section fade-in">
+            <h2 class="category-title">3. PLATOS ESPAÑOLES / SPANISH SPECIALTIES</h2>
+            <div class="menu-grid">
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Cazuela de mariscos (para 2 personas)</h3>
+                        <span class="item-price">$50.000</span>
+                    </div>
+                    <p class="item-description">Seafood stew (2 people)</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Cazuela de pescado (para 2 personas)</h3>
+                        <span class="item-price">$46.000</span>
+                    </div>
+                    <p class="item-description">Fish stew (2 people)</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Cazuela de abadejo al tomate con croquetas de arroz</h3>
+                        <span class="item-price">$48.000</span>
+                    </div>
+                    <p class="item-description">Codfish stew prepared with tomato and rice croquetas (fried rice-balls)</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Cazuela de merluza negra a la portuguesa o al tomate</h3>
+                        <span class="item-price">$58.000</span>
+                    </div>
+                    <p class="item-description">Black hake stew, Portuguese-style or with tomato sauce</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Cazuela de merluza negra con salsa verde (gambas y almejas)</h3>
+                        <span class="item-price">$60.000</span>
+                    </div>
+                    <p class="item-description">Black hake stew with green sauce (prawns and clams)</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Cazuela de mondongo a la española con patitas y garbanzos (para 2 personas)</h3>
+                        <span class="item-price">Consultar</span>
+                    </div>
+                    <p class="item-description">Tripe stew, Spanish-style with pork feet and chickpeas (2 people)</p>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="cat-4" class="menu-section fade-in">
+            <h2 class="category-title">4. ESPECIALIDADES CON ARROZ / RICE SPECIALTIES</h2>
+            <div class="menu-grid">
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Arroz con mariscos</h3>
+                        <span class="item-price">$42.000</span>
+                    </div>
+                    <p class="item-description">Rice with seafood</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Arroz con gambas</h3>
+                        <span class="item-price">$41.000</span>
+                    </div>
+                    <p class="item-description">Rice with prawns</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Arroz con gambas y hongos secos</h3>
+                        <span class="item-price">$44.000</span>
+                    </div>
+                    <p class="item-description">Rice with prawns and dried mushrooms</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Arroz con pollo</h3>
+                        <span class="item-price">$38.000</span>
+                    </div>
+                    <p class="item-description">Rice with chicken</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Risotto de hongos y frutos de mar (para 2 personas)</h3>
+                        <span class="item-price">$52.000</span>
+                    </div>
+                    <p class="item-description">Mushroom and seafood risotto (2 people)</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Paella a la valenciana (para 2 personas)</h3>
+                        <span class="item-price">$53.000</span>
+                    </div>
+                    <p class="item-description">Valencian paella (2 people)</p>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="cat-5" class="menu-section fade-in">
+            <h2 class="category-title">5. PESCADOS Y MARISCOS GRILLADOS</h2>
+            <div class="menu-grid">
+             <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Salmón rosado chileno</h3>
+                        <span class="item-price">$28.000</span>
+                    </div>
+                    <p class="item-description">Pink salmon Chilean</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Lenguado</h3>
+                        <span class="item-price">$23.000</span>
+                    </div>
+                    <p class="item-description">Sole</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Trucha</h3>
+                        <span class="item-price">$24.000</span>
+                    </div>
+                    <p class="item-description">Trout</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Abadejo</h3>
+                        <span class="item-price">$27.000</span>
+                    </div>
+                    <p class="item-description">Codfish</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Merluza negra</h3>
+                        <span class="item-price">$40.000</span>
+                    </div>
+                    <p class="item-description">Black hake</p>
+                </article>
+
+            </div>
+        </section>
+        <section id="cat-6" class="menu-section fade-in">
+            <h2 class="category-title">6. PESCADOS Y MARISCOS CON SALSA</h2>
+            <div class="menu-grid">
+               <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Filet de merluza a la romana</h3>
+                        <span class="item-price">$23.000</span>
+                    </div>
+                    <p class="item-description">Brown hake filet</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Salmón rosado a la crema con limón</h3>
+                        <span class="item-price">$30.000</span>
+                    </div>
+                    <p class="item-description">Pink salmon with lemon cream</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Salmón rosado a la crema de langostino</h3>
+                        <span class="item-price">$30.000</span>
+                    </div>
+                    <p class="item-description">Pink salmon with prawns cream</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Trucha a la almendra</h3>
+                        <span class="item-price">$26.000</span>
+                    </div>
+                    <p class="item-description">Trout with almonds</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Trucha a la crema de limón con papas noisette</h3>
+                        <span class="item-price">$27.000</span>
+                    </div>
+                    <p class="item-description">Trout with lemon cream and noisette potatoes</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Trucha a la crema de langostino con papas al natural</h3>
+                        <span class="item-price">$26.000</span>
+                    </div>
+                    <p class="item-description">Trout with cream of prawns and natural potatoes</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Abadejo al ajillo</h3>
+                        <span class="item-price">$29.000</span>
+                    </div>
+                    <p class="item-description">Codfish, ajillo-style (pan-fried with garlic)</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Merluza negra al ajillo</h3>
+                        <span class="item-price">$42.000</span>
+                    </div>
+                    <p class="item-description">Black hake, ajillo-style (pan-fried with garlic)</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Abadejo a la fiorentina</h3>
+                        <span class="item-price">$30.000</span>
+                    </div>
+                    <p class="item-description">Codfish, Florentine-style (spinach bed and white sauce)</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Lenguado a la fiorentina</h3>
+                        <span class="item-price">$30.000</span>
+                    </div>
+                    <p class="item-description">Sole, Florentine-style (spinach bed and white sauce)</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Trucha a la pizza, crema de limón o crema de langostino (para 2 personas)</h3>
+                        <span class="item-price">$42.000</span>
+                    </div>
+                    <p class="item-description">Trout on pizza, lemon cream or shrimp cream (2 people)</p>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="cat-7" class="menu-section fade-in">
+            <h2 class="category-title">7. CARNES A LA PARRILLA / GRILLED MEATS</h2>
+            <div class="menu-grid">
+              <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Bife de chorizo</h3>
+                        <span class="item-price">$31.000</span>
+                    </div>
+                    <p class="item-description">Rib steak</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Bife de lomo</h3>
+                        <span class="item-price">$34.000</span>
+                    </div>
+                    <p class="item-description">Tenderloin steak</p>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="cat-8" class="menu-section fade-in">
+            <h2 class="category-title">8. PLATOS TRADICIONALES / TRADITIONAL PLATES</h2>
+            <div class="menu-grid">
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">1/4 Pollo deshuesado Don Sergio (pata o pechuga)</h3>
+                        <span class="item-price">$26.000</span>
+                    </div>
+                    <p class="item-description">Boneless chicken "Don Sergio"</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">1/4 Pollo al champignon con papas noisette</h3>
+                        <span class="item-price">$25.000</span>
+                    </div>
+                    <p class="item-description">Mushrooms chicken with noisette potatoes</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Lomo Don Sergio</h3>
+                        <span class="item-price">$37.000</span>
+                    </div>
+                    <p class="item-description">Tenderloin "Don Sergio" (semiglass sauce, artichokes, fried asparagus and noisette potatoes)</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Lomo al champignon con papas noisette</h3>
+                        <span class="item-price">$36.000</span>
+                    </div>
+                    <p class="item-description">Mushrooms tenderloin with noisette potatoes</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Lomo pimienta con papa a la crema</h3>
+                        <span class="item-price">$36.000</span>
+                    </div>
+                    <p class="item-description">Pepper tenderloin with creamy potatoes</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Lomo Cabernet Sauvignon con papas a la crema</h3>
+                        <span class="item-price">$36.000</span>
+                    </div>
+                    <p class="item-description">Cabernet Sauvignon with creamy potatoes</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Escalope a la marsala con puré</h3>
+                        <span class="item-price">$29.000</span>
+                    </div>
+                    <p class="item-description">Tenderloin scallope, Marshall-style, with mashed potatoes</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Escalope a la romana con puré</h3>
+                        <span class="item-price">$28.000</span>
+                    </div>
+                    <p class="item-description">Tenderloin scallope, Roman-style, with mashed potatoes</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Suprema Bonne Femme</h3>
+                        <span class="item-price">$26.000</span>
+                    </div>
+                    <p class="item-description">Supreme Bonne Femme (bacon, champignon, sherry sauce and noisette potatoes)</p>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="cat-9" class="menu-section fade-in">
+            <h2 class="category-title">9. BROCCONCHINOS SALTADOS (Verdeo, Calabresa o Provenzal)</h2>
+            <div class="menu-grid">
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Brocconchinos de pollo</h3>
+                        <span class="item-price">$42.000</span>
+                    </div>
+                    <p class="item-description">Sautéed chicken (Green onion, Calabresa or Provenzal style)</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Brocconchinos de lomo</h3>
+                        <span class="item-price">$46.000</span>
+                    </div>
+                    <p class="item-description">Sautéed tenderloin (Green onion, Calabresa or Provenzal style)</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Brocconchinos mixtos</h3>
+                        <span class="item-price">$44.000</span>
+                    </div>
+                    <p class="item-description">Sautéed chicken and tenderloin combined (Green onion, Calabresa or Provenzal style)</p>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="cat-10" class="menu-section fade-in">
+            <h2 class="category-title">10. ENSALADAS / SALADS</h2>
+            <div class="menu-grid">
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Ensalada Normanda</h3>
+                        <span class="item-price">$20.000</span>
+                    </div>
+                    <p class="item-description">Pavita, apio, nueces, pasas de uva y manzana verde / Turkey, celery, walnuts, raisins and green apple</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Ensalada Dinastía</h3>
+                        <span class="item-price">$19.000</span>
+                    </div>
+                    <p class="item-description">Palmitos, queso gruyere, duraznos, crema y blanco de ave / Hearts of palm, gruyere cheese, peaches, cream and white poultry</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Ensalada Marbella</h3>
+                        <span class="item-price">$18.000</span>
+                    </div>
+                    <p class="item-description">Zanahoria, manzana, apio, palmitos, nueces y mayonesa / Carrot, apple, celery, hearts of palm, walnuts and mayonnaise</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Ensalada Don Sergio</h3>
+                        <span class="item-price">$22.000</span>
+                    </div>
+                    <p class="item-description">Palmitos, palta y langostino / Hearts of palm, avocado and shrimp</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Ensalada de estación o mixta</h3>
+                        <span class="item-price">$13.000</span>
+                    </div>
+                    <p class="item-description">Lechuga, tomate, radicheta, zanahoria, apio y rúcula / Lettuce, tomato, radicheta, carrot, celery and rocket</p>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="cat-11" class="menu-section fade-in">
+            <h2 class="category-title">11. LEGUMBRES / LEGUMES</h2>
+            <div class="menu-grid">
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Panaché de legumbres</h3>
+                        <span class="item-price">$14.000</span>
+                    </div>
+                    <p class="item-description">Panache of legumes</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Espinaca al gusto</h3>
+                        <span class="item-price">$11.000</span>
+                    </div>
+                    <p class="item-description">Spinach to taste</p>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="cat-12" class="menu-section fade-in">
+            <h2 class="category-title">12. SOPAS / SOUPS</h2>
+            <div class="menu-grid">
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Sopa de arroz</h3>
+                        <span class="item-price">$9.000</span>
+                    </div>
+                    <p class="item-description">Rice soup</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Sopa de verduras</h3>
+                        <span class="item-price">$11.000</span>
+                    </div>
+                    <p class="item-description">Vegetable soup</p>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="cat-13" class="menu-section fade-in">
+            <h2 class="category-title">13. PASTAS CASERAS CON SALSA TRADICIONAL</h2>
+            <div class="menu-grid">
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Ñoquis de papa</h3>
+                        <span class="item-price">$19.000</span>
+                    </div>
+                    <p class="item-description">Potato gnocchi</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Ravioles de verdura y pollo</h3>
+                        <span class="item-price">$21.000</span>
+                    </div>
+                    <p class="item-description">Vegetable and chicken ravioli</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Vermichellis</h3>
+                        <span class="item-price">$19.000</span>
+                    </div>
+                    <p class="item-description">Vermichellis</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Fussiles</h3>
+                        <span class="item-price">Consultar</span>
+                    </div>
+                    <p class="item-description">Fussiles</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Sorrentinos de jamón y queso</h3>
+                        <span class="item-price">$22.000</span>
+                    </div>
+                    <p class="item-description">Ham and cheese sorrentinos</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Ñoquis verdes</h3>
+                        <span class="item-price">$20.000</span>
+                    </div>
+                    <p class="item-description">Green gnocchi</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Fetuccinis</h3>
+                        <span class="item-price">$19.000</span>
+                    </div>
+                    <p class="item-description">Fetuccinis</p>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="cat-14" class="menu-section fade-in">
+            <h2 class="category-title">14. OTRAS DE NUESTRAS PASTAS</h2>
+            <div class="menu-grid">
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Fetuccinis verdes a la crema de salmón rosado</h3>
+                        <span class="item-price">$26.000</span>
+                    </div>
+                    <p class="item-description">Green fetuccinis with pink salmon cream</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Vermichellis o fusillis con salsa de mariscos</h3>
+                        <span class="item-price">$26.000</span>
+                    </div>
+                    <p class="item-description">Vermichellis or fusillis with seafood sauce</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Ñoquis verdes soufflé de espinacas (4 quesos o roquefort)</h3>
+                        <span class="item-price">$25.000</span>
+                    </div>
+                    <p class="item-description">Green gnocchi spinach soufflé (4 cheeses or roquefort)</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Ñoquis verdes soufflé de espinacas (Fredo)</h3>
+                        <span class="item-price">$25.000</span>
+                    </div>
+                    <p class="item-description">Green gnocchi spinach soufflé (Fredo)</p>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="cat-15" class="menu-section fade-in">
+            <h2 class="category-title">15. CREPES</h2>
+            <div class="menu-grid">
+               <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Crepes de espinaca a los 4 quesos</h3>
+                        <span class="item-price">$29.000</span>
+                    </div>
+                    <p class="item-description">Spinach crepes with 4 cheeses</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Crepes de espinaca con salsa fileto o rosé</h3>
+                        <span class="item-price">$25.000</span>
+                    </div>
+                    <p class="item-description">Spinach crepes with fillet or rosé sauce</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Crepes de champignones y camarones</h3>
+                        <span class="item-price">$30.000</span>
+                    </div>
+                    <p class="item-description">Mushrooms and shrimps crepes</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Crepes de centolla</h3>
+                        <span class="item-price">$30.000</span>
+                    </div>
+                    <p class="item-description">Crab crepes</p>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="cat-16" class="menu-section fade-in">
+            <h2 class="category-title">16. MILANESAS / BREADED CUTLETS</h2>
+            <div class="menu-grid">
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Suprema de pollo</h3>
+                        <span class="item-price">$21.000</span>
+                    </div>
+                    <p class="item-description">Chicken supreme bread crusted</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Suprema de pollo a la napolitana</h3>
+                        <span class="item-price">$23.000</span>
+                    </div>
+                    <p class="item-description">Supreme neapolitan-style chicken</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Milanesa de pollo</h3>
+                        <span class="item-price">$21.000</span>
+                    </div>
+                    <p class="item-description">Chicken bread crusted</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Milanesa de pollo a la napolitana</h3>
+                        <span class="item-price">$23.000</span>
+                    </div>
+                    <p class="item-description">Chicken bread crusted neapolitan-style</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Milanesa de lomo</h3>
+                        <span class="item-price">$22.500</span>
+                    </div>
+                    <p class="item-description">Tenderloin bread crusted</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Milanesa de lomo a la napolitana</h3>
+                        <span class="item-price">$24.000</span>
+                    </div>
+                    <p class="item-description">Neapolitan-style tenderloin bread crusted</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Papas fritas (noisette, bastón, española o rejilla)</h3>
+                        <span class="item-price">$10.000</span>
+                    </div>
+                    <p class="item-description">French fries (noisette, traditional, spanish or lattice)</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Suprema al roquefort, jamón, nueces y papas noisette</h3>
+                        <span class="item-price">$25.000</span>
+                    </div>
+                    <p class="item-description">Supreme with roquefort, ham, walnuts and noisette potatoes</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Suprema Maryland</h3>
+                        <span class="item-price">$26.000</span>
+                    </div>
+                    <p class="item-description">Supreme Maryland</p>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="cat-17" class="menu-section fade-in">
+            <h2 class="category-title">17. BEBIDAS / DRINKS</h2>
+
+            <!-- SUB-CATEGORÍA: CERVEZAS -->
+            <h3 style="color: var(--accent-gold); margin: 1.5rem 0 1rem 0; font-size: 1.3rem; border-bottom: 1px solid rgba(212, 175, 55, 0.3); padding-bottom: 0.3rem;">
+                Cervezas / Beers
+            </h3>
+            <div class="menu-grid">
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Cerveza Patagonia</h3>
+                        <span class="item-price">$11.000</span>
+                    </div>
+                    <p class="item-description">Patagonia beer</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Cerveza Quilmes</h3>
+                        <span class="item-price">$7.000</span>
+                    </div>
+                    <p class="item-description">Quilmes beer</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Cerveza Corona</h3>
+                        <span class="item-price">$12.000</span>
+                    </div>
+                    <p class="item-description">Corona beer</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Cerveza Chica</h3>
+                        <span class="item-price">$8.000</span>
+                    </div>
+                    <p class="item-description">Small beer</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Cerveza Heineken</h3>
+                        <span class="item-price">$8.000</span>
+                    </div>
+                    <p class="item-description">Heineken beer</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Cerveza Patagonia IPA (chica)</h3>
+                        <span class="item-price">$8.000</span>
+                    </div>
+                    <p class="item-description">Patagonia IPA beer (small)</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Cerveza sin alcohol (Corona y Heineken)</h3>
+                        <span class="item-price">$8.000</span>
+                    </div>
+                    <p class="item-description">Non-alcoholic beer (Corona & Heineken)</p>
+                </article>
+
+            </div>
+
+            <!-- SUB-CATEGORÍA: ESPECIALIDADES DE LA CASA -->
+            <h3 style="color: var(--accent-gold); margin: 2rem 0 1rem 0; font-size: 1.3rem; border-bottom: 1px solid rgba(212, 175, 55, 0.3); padding-bottom: 0.3rem;">
+                Especialidades de la Casa / House Cocktails
+            </h3>
+            <div class="menu-grid">
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Fernet Branca</h3>
+                        <span class="item-price">$9.000</span>
+                    </div>
+                    <p class="item-description">Fernet Branca with cola</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Gin & Tonic</h3>
+                        <span class="item-price">$9.000</span>
+                    </div>
+                    <p class="item-description">Gin & Tonic</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Daiquiri</h3>
+                        <span class="item-price">$10.000</span>
+                    </div>
+                    <p class="item-description">Daiquiri</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Gancia</h3>
+                        <span class="item-price">$8.000</span>
+                    </div>
+                    <p class="item-description">Gancia</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Cuba Libre</h3>
+                        <span class="item-price">$9.000</span>
+                    </div>
+                    <p class="item-description">Cuba Libre</p>
+                </article>
+
+            </div>
+
+            <!-- SUB-CATEGORÍA: SIN ALCOHOL -->
+            <h3 style="color: var(--accent-gold); margin: 2rem 0 1rem 0; font-size: 1.3rem; border-bottom: 1px solid rgba(212, 175, 55, 0.3); padding-bottom: 0.3rem;">
+                Sin Alcohol / Non-Alcoholic Drinks
+            </h3>
+            <div class="menu-grid">
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Coca-Cola</h3>
+                        <span class="item-price">$3.800</span>
+                    </div>
+                    <p class="item-description">Coca-Cola</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Sprite</h3>
+                        <span class="item-price">$3.800</span>
+                    </div>
+                    <p class="item-description">Sprite</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Fanta</h3>
+                        <span class="item-price">$3.800</span>
+                    </div>
+                    <p class="item-description">Fanta</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Agua con / sin gas</h3>
+                        <span class="item-price">$4.000</span>
+                    </div>
+                    <p class="item-description">Still or sparkling water</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Limonada</h3>
+                        <span class="item-price">$6.000</span>
+                    </div>
+                    <p class="item-description">Lemonade</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Jugo de Naranja</h3>
+                        <span class="item-price">$7.000</span>
+                    </div>
+                    <p class="item-description">Orange juice</p>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <h3 class="item-name">Agua Saborizada (Manzana, Naranja, Pomelo)</h3>
+                        <span class="item-price">$4.000</span>
+                    </div>
+                    <p class="item-description">Flavored water (Apple, Orange, Grapefruit)</p>
+                </article>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="main-footer">
+        <p><strong>Restaurant & Marisquería Sergio</strong></p>
+        <p>Av. Libertador 2102 • El Calafate - Santa Cruz - Patagonia Argentina</p>
+    </footer>
+
+    <!-- BOTÓN VOLVER ARRIBA -->
+    <button id="backToTop" class="back-to-top" aria-label="Volver arriba">&#8593;</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
